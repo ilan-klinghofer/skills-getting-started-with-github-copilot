@@ -76,14 +76,21 @@ section h3 {
 
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 20px;
+  margin-left: 0; /* Remove default margin */
+  padding-left: 20px; /* Ensure bullets are indented within the box */
   list-style-type: disc;
+  list-style-position: inside; /* Ensure bullets are inside the shaded box */
   color: #333;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #555;
 }
 
 .form-group {
